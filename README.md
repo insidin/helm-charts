@@ -1,6 +1,6 @@
-# Insidin Helm Repository
+# Home of the Insidin Helm Repository
 
-This is the source the Insidin Helm Repository, hosted with github pages.
+This is the source of the Insidin Helm Repository, hosted with github pages.
 
 The repository URL is https://charts.insidin.com.
 
