@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: "0.1"
+name: test-chart
+version: 0.0.1
+description: A test Helm chart for setup of Insidin helm-charts repository
+home: https://github.com/insidin/helm-charts/test-chart
+maintainers:
+  - email: machine@insidin.com
+    name: Insidin machine
+sources:
+  - https://github.com/helm/charts-repo-actions-demo
+dependencies:
+  - name: redis
+    version: 10.5.13
+    repository: https://charts.bitnami.com
+    condition: redis.enabled
+  - name: helm-exporter
+    version: 0.5.1
+    repository: @stable
