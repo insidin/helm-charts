@@ -1,0 +1,27 @@
+apiVersion: v1
+entries:
+  test-chart:
+  - apiVersion: v2
+    appVersion: "0.1"
+    created: "2020-03-30T09:27:47.985349367Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com
+      version: 10.5.13
+    - name: chartmuseum
+      repository: '@stable'
+      version: 2.10.0
+    description: A test Helm chart for setup of Insidin helm-charts repository
+    digest: b10668a00ce155d40147016a40a29657b90f807b4510a2ad8cb1f7c3b1b8a48e
+    home: https://github.com/insidin/helm-charts/test-chart
+    maintainers:
+    - email: machine@insidin.com
+      name: Insidin machine
+    name: test-chart
+    sources:
+    - https://github.com/helm/charts-repo-actions-demo
+    urls:
+    - https://github.com/insidin/helm-charts/releases/download/test-chart-0.0.1/test-chart-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-03-30T09:27:47.864843684Z"
