@@ -16,4 +16,4 @@ dependencies:
     condition: redis.enabled
   - name: helm-exporter
     version: 0.5.1
-    repository: @stable
+    repository: "@stable"
